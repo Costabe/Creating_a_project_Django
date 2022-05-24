@@ -30,6 +30,6 @@ python3 manage.py runserver---> (Inicie o servidor de desenvolvimento O site de 
 python3 manage.py shell ---> (testes automatizados! )
 
 
-ajuda sobre seu projeto:
+ajuda sobre o projeto
 https://docs.djangoproject.com/en/4.0/faq
 https://docs.djangoproject.com/en/4.0/intro/overview/
