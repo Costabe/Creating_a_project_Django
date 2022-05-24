@@ -1,6 +1,35 @@
-O desafio será ler e executar os links:
-https://www.djangoproject.com/start/
-https://docs.djangoproject.com/en/4.0/topics/install/#installing-official-release
+Descrição do projeto:
+ Ler e executar os links:
 https://docs.djangoproject.com/en/4.0/intro/
-https://docs.djangoproject.com/en/4.0/intro/tutorial01/
-E no final queremos uma tela no Browser “Congratulations!”
+Neste Projeto foi executado todos os passos a passo, sendo assim remodelando o modelo padrao com base na documentaao fornedida pelo site .. 
+
+
+Funcionalidades:
+
+                                   (Comandos uteis nos Terminal)
+
+pip install Django==4.0.4 ---> (Instalando uma versão oficial com pip)
+
+django-admin startproject mysite ---> (Criando um projeto)
+
+python3 manage.py runserver ---> (O servidor de desenvolvimento)
+
+python3 manage.py startapp polls ---> (Criando o aplicativo Enquetes)
+
+python3 manage.py migrate ---> (migrate comando pega todas as migrações que não foram aplicadas)
+
+python3 manage.py makemigrations polls ---> (Ao executar makemigrations, você está dizendo ao Django que fez algumas alterações em seus modelos.)
+
+python3 manage.py sqlmigrate polls 0001 ---> (O sqlmigrate comando não executa a migração em seu banco de dados ,em vez disso 
+ele a imprime na tela para que você possa ver o que o SQL Django acha que é necessário.)
+
+python3 manage.py createsuperuser --->( vai criar um usuário que possa fazer login no site de administração.)
+
+python3 manage.py runserver---> (Inicie o servidor de desenvolvimento O site de administração do Django é ativado por padrão.)
+
+python3 manage.py shell ---> (testes automatizados! )
+
+
+ajuda sobre seu projeto:
+https://docs.djangoproject.com/en/4.0/faq
+https://docs.djangoproject.com/en/4.0/intro/overview/
